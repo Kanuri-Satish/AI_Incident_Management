@@ -1,11 +1,23 @@
+
+## Ticket Assigned To Concerned Employee
+![Dashboard Screenshot](S1.png)
+## Ticket Resoved by AI Itself
+![Dashboard Screenshot](S2.png)
+## Module Ticket Queue
+![Dashboard Screenshot](S3.png)
+## Employees Directory
+![Dashboard Screenshot](S4.png)
+## Analytics of Incidents
+![Dashboard Screenshot](S5.png)
+
 #Incident Management By AI
 
-## 📋 Project Overview
+##  Project Overview
 The **Incident Management By AI** platform is an enterprise-grade, full-stack ticketing system designed to automate IT service desk operations. By integrating an advanced Large Language Model (Llama 3.3 70B), the system acts as a Level 1 / Level 2 support agent—capable of reading incoming tickets, analyzing user sentiment, auto-resolving common queries, and intelligently routing complex issues to the correct department based on employee skills, availability, and active workload.
 
-This project demonstrates a modern microservices architecture, combining a highly responsive React frontend with a scalable Python/FastAPI backend and an AI-driven triage engine.
+This project demonstrates a modern microservices architecture, combining a highly responsive React frontend with a scalable Python/FastAPI backend and an AI-driven engine.
 
----
+
 
 ##Tech Stack
 **Frontend:**
@@ -18,7 +30,6 @@ This project demonstrates a modern microservices architecture, combining a highl
 * **SQLite** & **SQLAlchemy** (Relational database and ORM)
 * **Groq API** (Hosting the **Llama-3.3-70b-versatile** model for near-instant AI inference)
 
----
 
 ##Feature List (Core Modules)
 
