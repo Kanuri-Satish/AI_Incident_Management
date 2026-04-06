@@ -1,0 +1,12 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+backend/ticketing.db
+
+# Node/React
+frontend/node_modules/
+frontend/dist/
+
+# OS Files
+.DS_Store
