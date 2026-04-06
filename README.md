@@ -9,6 +9,8 @@
 ![Dashboard Screenshot](S4.png)
 ## Analytics of Incidents
 ![Dashboard Screenshot](S5.png)
+## Category, Severity, Sentiment, Assigned To
+![Dashboard Screenshot](S6.png)
 
 #Incident Management By AI
 
