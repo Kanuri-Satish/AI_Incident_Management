@@ -4,6 +4,7 @@ from sqlalchemy.orm import Session
 from pydantic import BaseModel
 from groq import Groq
 import json
+import os
 
 from models import SessionLocal, Employee, Ticket, TicketEvent
 
@@ -17,7 +18,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-GROQ_API_KEY = "API_KEY" 
+GROQ_API_KEY = os.environ.get("API_KEY")
 client = Groq(api_key=GROQ_API_KEY)
 
 def get_db():
