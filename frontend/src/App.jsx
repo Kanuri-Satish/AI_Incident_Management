@@ -18,9 +18,9 @@ function App() {
   const fetchData = async () => {
     try {
       const [statsRes, ticketsRes, empRes] = await Promise.all([
-        fetch('http://127.0.0.1:8000/api/analytics'),
-        fetch('http://127.0.0.1:8000/api/tickets'),
-        fetch('http://127.0.0.1:8000/api/employees')
+        fetch('https://ai-incident-management.onrender.com/api/analytics'),
+        fetch('https://ai-incident-management.onrender.com/api/tickets'),
+        fetch('https://ai-incident-management.onrender.com/api/employees')
       ]);
       setStats(await statsRes.json());
       setTickets(await ticketsRes.json());
@@ -34,7 +34,7 @@ function App() {
     e.preventDefault();
     setLoading(true);
     try {
-      const response = await fetch('http://127.0.0.1:8000/api/tickets/submit', {
+      const response = await fetch('https://ai-incident-management.onrender.com/api/tickets/submit', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ description: newTicket }),
